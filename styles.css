@@ -240,15 +240,7 @@ h3 {
     gap: 20px;
     padding: 0px 60px;
 }
-.backimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 80px;
-    background-size: cover;
 
-}
 /*Footer*/
 .footer {
     background-color: black;
@@ -389,14 +381,7 @@ h3 {
         justify-content: center;
         font-size: 250%;
     }
-    .backimg {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        background-size: cover;
-        bottom: 100px;
-    }
+
 
 
     /*Footer*/
