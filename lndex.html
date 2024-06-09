@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/f9287a3453.js" crossorigin="anonymous"></script>
+
+
+        <script src="index.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="w-full h-full fixed bg-[#00000080] z-20 flex items-center justify-center" id="sc" style="display: none;">
+			<div class="w-full h-full bg-[#00000080] absolute" onclick="togglePopup()" ></div>
+			<div class="w-[80%] h-[90%] bg-white rounded-3xl flex flex-col overflow-auto lg:overflow-hidden lg:flex-row justify-between z-30" id="scContainer">
+				<!-- <img id="sc_0" class="object-scale-down w-auto h-[800px] lg:w-full lg:h-auto" /> --> <!-- sc: ShowCase; 0: primary; -->
+                <div class="w-auto h-[800px] lg:w-full lg:h-auto items-center justify-center flex bg-contain bg-no-repeat bg-center" id="sc_0" style="background-image: url('');">
+                </div>
+				<div class="w-full lg:w-[30%] h-[4000px] lg:h-auto p-8 bg-slate-200 flex flex-col rounded-3xl lg:overflow-auto gap-2" id="scDiv">
+				</div>
+			</div>
+		</div>
+
+        <div class="scroller" style="height: 100%; width: 100%;">
+            <section class="Background1">
+                <div class="mainDiv">
+                    <div class="titleDiv">
+                        <p class="fontInter" style="font-weight: 100; margin:0px;"> Portfolio </p>
+                        <p class="fontInter" style="font-weight: 800; margin:0px;"> HISHAM ALRASHINI </p>
+                        <div class="line1"></div>
+                    </div>
+                    <div class="subDiv">
+                        <p class="fontInter" style="font-weight: 800; margin:0px;"> Graphic Designer </p>
+                        <p class="fontInter" style="font-weight: 800; margin:0px;"> UI/Ux Designer </p>
+                        <p class="fontInter" style="font-weight: 80; margin:0px;"> Based in Sweden </p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="container2">
+                <div class="work1">
+                    <div class="name1">
+                        <div class="line2"></div>
+                        <h3>Some of the Projects</h3>
+                    </div>
+                </div>
+                <div class="project_container">
+                    <div id="printings" class="cursor-pointer" onclick="changeActiveProject(0)">
+                        <div>
+                            <label for="printings" class="cursor-pointer">Printings <i class="fa-solid fa-palette"></i></label>
+
+                        </div>
+                    </div>
+                    <div id="books" class="cursor-pointer" onclick="changeActiveProject(1)">
+                        <div>
+                            <label for="books">Books <i class="fa-solid fa-book"></i></label>
+
+                        </div>
+                    </div>
+                    <div id="magazines" class="cursor-pointer" onclick="changeActiveProject(2)">
+                        <div>
+                            <label for="magazines">Magazines <i class="fa-solid fa-newspaper"></i></label>
+
+                        </div>
+                        
+                    </div>
+                    <div id="films" class=" cursor-pointer" onclick="changeActiveProject(3)">
+                            <div>
+                                <label for="films">Film Editing & Intros <i class="fa-solid fa-film"></i></label>
+                        </div>
+                        
+                    </div>
+             
+                </div>
+                <div class="backimg">
+                    <img src="images/image_back_over_footer.png">
+                </div>
+            </section>
+
+            <section class="footer">
+                
+                <ul id="social-networks">
+                    <li><a href="http://www.linkedin.com/" target="_blank" rel="noopener"
+                        aria-label="Visit my Linkedin page (opens in a new tab)"><i class="fa-brands fa-linkedin text-white text-[40px]"></i></a></li>
+                        <p>E-mail: hishamrashini@gmail.com</p>
+                </ul>
+               
+            </section>
+        </div>
+    </body>
+
+</html>
