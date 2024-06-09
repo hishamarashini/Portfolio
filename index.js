@@ -62,6 +62,7 @@ printings.newImg("./images/beauty_center/wajha_1.jpg");
 printings.newImg("./images/beauty_center/wajha_2.jpg");
 printings.newImg("./images/beauty_center/Royal_garden_hotel_flyer.png");
 printings.newImg("./images/beauty_center/Dream_suit_hotel.png");
+printings.newImg("./images/beauty_center/Carpet_khansa.png");
 
 const books = new projects(1, "books");
 books.newImg("./images/book_covers/Book_Cover_Final_Outline_press_(2).jpg")
@@ -76,6 +77,9 @@ magazines.newImg("./images/Nasamat_gelaf.png");
 const films = new projects(3, "films", true);
 films.newVid('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1Mk9ldXm2dk" title="Elite AD1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
 films.newVid('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7bOeu_SOn3k" title="new intro cubes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+films.newVid('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lcHWQhdJUBA" title="Nordisk Kompetens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+films.newVid('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kUgMZnn-my8" title="Varruset" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+
 
 let projects_array = [printings, books, magazines, films]
 let activeProject = 1;
